@@ -10,7 +10,7 @@
 
 int main(int argc, char const *argv[])
 {
-	if(argc <= 3){
+	if(argc < 3){
 		fprintf(stderr, "please enter args: newgrep PATTERN (May be in \"\")  FILE [FILE...]\n");
 		exit(0);
 	}
